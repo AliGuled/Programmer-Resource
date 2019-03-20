@@ -6,9 +6,21 @@
 //  Copyright © 2019 Guled Ali. All rights reserved.
 //
 
-import Foundation
+import WebKit
 import UIKit
 
 class WebViewController: UIViewController {
+    
+    var url: URL!
+    
+    @IBOutlet weak var webView: WKWebView!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        let request = URLRequest(url: url)
+        webView.load(request)
+    }
+    
+
     
 }
