@@ -64,6 +64,7 @@
 		188D99D32241A3AD00EA0C81 /* Programmer Resource */ = {
 			isa = PBXGroup;
 			children = (
+				18EE24B822452D5A000B5413 /* Views */,
 				18EE24B922452D70000B5413 /* Model */,
 				18EE24B722452A2C000B5413 /* Controllers */,
 				18EE24BA22452D9A000B5413 /* Supporting Files */,
@@ -75,7 +76,6 @@
 		18EE24B722452A2C000B5413 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18EE24B822452D5A000B5413 /* Views */,
 				188D99EC2241A85000EA0C81 /* DetailViewController.swift */,
 				188D99EE2241A87B00EA0C81 /* TableViewController.swift */,
 				188D99F02241A89600EA0C81 /* WebViewController.swift */,
