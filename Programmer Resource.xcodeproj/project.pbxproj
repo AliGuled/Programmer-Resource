@@ -17,6 +17,7 @@
 		188D99F12241A89600EA0C81 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D99F02241A89600EA0C81 /* WebViewController.swift */; };
 		188D99F32241A8DA00EA0C81 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D99F22241A8DA00EA0C81 /* Resource.swift */; };
 		188D99F52241A8F500EA0C81 /* ResourceDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D99F42241A8F500EA0C81 /* ResourceDataController.swift */; };
+		18D516352257991C007A847A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D516342257991C007A847A /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		188D99F02241A89600EA0C81 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		188D99F22241A8DA00EA0C81 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		188D99F42241A8F500EA0C81 /* ResourceDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDataController.swift; sourceTree = "<group>"; };
+		18D51632225798C7007A847A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18D516342257991C007A847A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D516352257991C007A847A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +54,7 @@
 			children = (
 				188D99D32241A3AD00EA0C81 /* Programmer Resource */,
 				188D99D22241A3AD00EA0C81 /* Products */,
+				18D51631225798C7007A847A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +76,15 @@
 				188D99E02241A3AE00EA0C81 /* Info.plist */,
 			);
 			path = "Programmer Resource";
+			sourceTree = "<group>";
+		};
+		18D51631225798C7007A847A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D516342257991C007A847A /* WebKit.framework */,
+				18D51632225798C7007A847A /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		18EE24B722452A2C000B5413 /* Controllers */ = {
